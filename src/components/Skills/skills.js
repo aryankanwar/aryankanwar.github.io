@@ -9,11 +9,10 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What I Do?</span>
       <span className="skillDesc">
-      As a software engineer with  5+ years of hands-on experience in Full-Stack Software Development. 
-      I am passionate about creating personalized and engaging user experiences for millions of global customers. 
-      <br></br>
-      Currently pursuing my Master of Engineering degree in Computer Science at University of Waterloo, 
-      where I am learning advanced topics in software engineering, such as enterprise architecture, cloud computing, and artificial intelligence.
+      Currently pursuing my <span className="introName"> Master of Engineering </span>degree in Computer Science at  
+      <span className="introName"> University of Waterloo </span>
+      where I am learning advanced topics in software engineering, 
+      such as enterprise architecture, cloud computing, and artificial intelligence.
       </span>
       <div className="skillBars">
         <div className="skillBar">
@@ -44,7 +43,7 @@ const Skills = () => {
           <img src={otherIcon} alt="Other" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Other</h2>
-            <p>AWS, MongoDB, Apache Kafka, MysqlSQL</p>
+            <p>AWS, MySQL, MongoDB, Apache Kafka</p>
           </div>
         </div>
       </div>
