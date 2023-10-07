@@ -54,3 +54,8 @@
   color: #080a0a;
   font-weight: 600;
 }
+.clickable-achievement-box {
+  text-decoration: none;
+  color: white;
+}
+
