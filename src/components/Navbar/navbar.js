@@ -6,7 +6,9 @@ import contactImg from "../../assets/contact.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-
+  const openResume = () => {
+    window.open("resume.pdf", "_blank");
+  };
   // function contactMeOnClickFunction() {
   //   return () => {
   //     document.getElementById("contact").scrollIntoView({
@@ -61,7 +63,19 @@ const Navbar = () => {
           duration={50}
           className="desktopMenuListItem"
         >
-          Achievements
+          Projects
+        </Link>
+        <Link
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={50}
+          className="desktopMenuListItem"
+          onClick={openResume}
+        >
+          Resume
         </Link>
       </div>
       {/* <button
@@ -126,7 +140,7 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
-          Achievements
+          Projects
         </Link>
         <Link
           activeClass="active"
@@ -139,6 +153,18 @@ const Navbar = () => {
           onClick={() => setShowMenu(false)}
         >
           Contact
+        </Link>
+        <Link
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={50}
+          className="listItem"
+          onClick={openResume}
+        >
+          Resume
         </Link>
       </div>
     </nav>
