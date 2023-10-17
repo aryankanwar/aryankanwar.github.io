@@ -9,14 +9,14 @@ const Navbar = () => {
   const openResume = () => {
     window.open("resume.pdf", "_blank");
   };
-  // function contactMeOnClickFunction() {
-  //   return () => {
-  //     document.getElementById("contact").scrollIntoView({
-  //       behavior: "smooth",
-  //       offset: -50,
-  //     });
-  //   };
-  // }
+  function contactMeOnClickFunction() {
+    return () => {
+      document.getElementById("contact").scrollIntoView({
+        behavior: "smooth",
+        offset: -50,
+      });
+    };
+  }
 
   return (
     <nav className="navbar">
@@ -65,6 +65,17 @@ const Navbar = () => {
         >
           Projects
         </Link>
+        <Link
+        activeClass="active"
+        to="contact"  // Updated to point to "contact" element
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={50}
+        className="desktopMenuListItem"
+       >
+        Contact Me
+      </Link>
         <Link
           activeClass="active"
           to="resume"
