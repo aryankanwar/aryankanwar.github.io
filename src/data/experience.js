@@ -2,6 +2,16 @@ export const experienceData = {
   workExperience: [
     {
       id: 1,
+      company: "PointClickCare, Toronto, Canada",
+      companyLogo:  "pcc", 
+      jobTitle: "Intermediate Software Engineer",     
+      date: "January 2023 - April 2024",
+      skills:
+      "Tech Stack: JAVA, MYSQL, REACT, SPRING BOOT, AZURE",
+      icon: "https://media.licdn.com/dms/image/v2/D4D0BAQE7jgCOOr6K6g/company-logo_200_200/company-logo_200_200/0/1724867504242/pointclickcare_logo?e=1741824000&v=beta&t=0aa_1l5dwQURDqrFVMDEycduix2bAYVlQhrOgEjrjIk",
+    },
+    {
+      id: 2,
       company: "University of Waterloo, Canada",
       companyLogo:  "uw", 
       jobTitle: "Master of Engineering ",      // cgpa: "CGPA:",
@@ -11,7 +21,7 @@ export const experienceData = {
       icon: "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/1200px-University_of_Waterloo_seal.svg.png",
     },
     {
-      id: 2,
+      id: 3,
       company: "CareerBuilder",
       companyLogo: "cb",
       jobTitle: "Software Developer Engineer II ",
@@ -21,7 +31,7 @@ export const experienceData = {
       icon : "https://jugnoo.io/wp-content/uploads/2023/01/jugnooLogo.png"
     },
     {
-      id: 2,
+      id: 4,
       company: "Click Labs/Jugnoo",
       companyLogo: "cl",
       jobTitle: "Software Developer",
